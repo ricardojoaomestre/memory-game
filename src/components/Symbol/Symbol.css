@@ -1,0 +1,12 @@
+.symbol-normal {
+  font-size: 3.5rem;
+}
+
+.symbol-small {
+  font-size: 2rem;
+}
+
+.disabled {
+  filter: grayscale(100%);
+  opacity: 0.5;
+}
