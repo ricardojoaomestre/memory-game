@@ -1,0 +1,20 @@
+.Sample-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+  gap: 0.8rem;
+}
+
+.Sample-item {
+  background-image: linear-gradient(
+    to top,
+    #ffffff,
+    #f1f1f1,
+    #e3e3e3,
+    #d6d6d6,
+    #c8c8c8
+  );
+  border-radius: 5px;
+  padding: 0.3rem;
+}
