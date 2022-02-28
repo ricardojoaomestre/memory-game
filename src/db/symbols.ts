@@ -1,9 +1,13 @@
-export interface Symbol {
+export interface ISymbol {
     name: string;
     symbol: string;
 }
 
-export const symbols:Array<Symbol> = [
+export const isEqual = (a: ISymbol, b: ISymbol):boolean => {
+    return a.symbol === b.symbol;
+}
+
+export const symbols:Array<ISymbol> = [
    { symbol: "🙈", name: "See-No-Evil Monkey"},
 { symbol: "🙉", name: "Hear-No-Evil Monkey"},
 { symbol: "🙊", name: "Speak-No-Evil Monkey"},
